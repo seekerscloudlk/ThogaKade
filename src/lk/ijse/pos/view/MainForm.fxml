@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashBoardUiContainer" prefHeight="249.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.pos.controller.MainFormController">
+   <children>
+      <Label alignment="CENTER" layoutY="6.0" prefHeight="40.0" prefWidth="600.0" text="DashBoard" textFill="#790000">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="163.0" layoutY="87.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/item.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="320.0" layoutY="87.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/orders.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="110.0" layoutX="468.0" layoutY="87.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/orderslist.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="118.0" layoutX="14.0" layoutY="83.0" onMouseClicked="#navigateToCustomerForm" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/customer.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
